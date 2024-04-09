@@ -1,3 +1,6 @@
+def hello():
+    print(42)
+
 #randomize ships in the board 
 def shuffle_ships in range (1,10)
 for shuffle_ships in range (a,j):
