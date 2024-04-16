@@ -14,7 +14,7 @@ while True:
          exit()
     elif command[0] in abc and int(command[1]) in range(10):
         print("Shot at", command)
-        if command == ship_coordinate:
+        if command in ship_coordinate:
             print("THAT'S A HIT!")
         else:
             print("Ooh! That's a miss :(")
