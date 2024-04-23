@@ -20,3 +20,4 @@ while True:
             print("Ooh! That's a miss :(")
     else:
          print("Command not valid")
+
