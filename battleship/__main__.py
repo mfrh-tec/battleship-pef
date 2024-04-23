@@ -1,4 +1,4 @@
-from board import battleship_board, create_ships
+from board import print_board
 
 with open('README.md', 'r') as f:
     print(f.read())
@@ -7,6 +7,7 @@ ship_coordinate = ["B5", "B6", "B7", "D8", "E8", "F8", "G8", "J1", "J2"]
 abc = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 
 while True:
+    print_board
     command = input("Enter a command: ")
     if command == "hello":
          print("hello")
