@@ -14,13 +14,13 @@ def new_board():
 def print_board(board):
     print(
         f"""
-  {board[0][0]} | {board[0][1]} | {board[0][2]} | {board[0][3]} | {board[0][4]} | {board[0][5]} | {board[0][6]} | {board[0][7]} | {board[0][8]} | {board[0][9]} 
+  {board[A][1]} | {board[A][2]} | {board[A][3]} | {board[A][4]} | {board[A][5]} | {board[A][6]} | {board[A][7]} | {board[A][8]} | {board[A][9]} | {board[A][10]} 
 --------------------------------
-  {board[1][0]} | {board[1][1]} | {board[1][2]} | {board[1][3]} | {board[1][4]} | {board[1][5]} | {board[1][6]} | {board[1][7]} | {board[1][8]} | {board[1][9]} 
+   {board[B][1]} | {board[B][2]} | {board[B][3]} | {board[B][4]} | {board[B][5]} | {board[B][6]} | {board[B][7]} | {board[B][8]} | {board[B][9]} | {board[B][10]} 
 --------------------------------
-  {board[2][0]} | {board[2][1]} | {board[2][2]} | {board[2][3]} | {board[2][4]} | {board[2][5]} | {board[2][6]} | {board[2][7]} | {board[2][8]} | {board[2][9]} 
+   {board[C][1]} | {board[C][2]} | {board[C][3]} | {board[C][4]} | {board[C][5]} | {board[C][6]} | {board[C][7]} | {board[C][8]} | {board[C][9]} | {board[C][10]} 
 --------------------------------
-  {board[3][0]} | {board[3][1]} | {board[3][2]} | {board[3][3]} | {board[3][4]} | {board[3][5]} | {board[3][6]} | {board[3][7]} | {board[3][8]} | {board[3][9]} 
+   {board[A][1]} | {board[A][2]} | {board[A][3]} | {board[A][4]} | {board[A][5]} | {board[A][6]} | {board[A][7]} | {board[A][8]} | {board[A][9]} | {board[A][10]} 
 --------------------------------
   {board[4][0]} | {board[4][1]} | {board[4][2]} | {board[4][3]} | {board[4][4]} | {board[4][5]} | {board[4][6]} | {board[4][7]} | {board[4][8]} | {board[4][9]} 
 --------------------------------
