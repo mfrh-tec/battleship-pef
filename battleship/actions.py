@@ -1,6 +1,6 @@
 #randomize ships in the board 
 def shuffle_ships in range (1,10)
-for shuffle_ships in range (a,j):
+for shuffle_ships in range (A,J):
 
 #player 1 attacks 
 coordinate_player1=input("Give your coordinate")
