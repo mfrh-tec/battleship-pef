@@ -2,13 +2,7 @@
 def shuffle_ships in range (1,10)
 for shuffle_ships in range (A,J):
 
-#player 1 attacks 
-coordinate_player1=input("Give your coordinate")
-if coordinate_player1 == (shuffle_ships,shuffle_ships): #not sure it is right 
- print red 
- print hit 
- else if print white 
-print miss 
+
 #change turn
 when coordinate_player1=input("Give your coordinate")
 print end turn 
@@ -33,3 +27,15 @@ print congrats you won!!
 if repeat the game 
 def shuffle_ships in range (1,10)
 for shuffle_ships in range (a,j):
+
+
+def shuffle_shipss():
+    pass
+
+
+def coordinate_to_shoot(board, row, column):
+    pass
+
+
+def verify_if_sink(board, ship_coordinates):
+    pass
