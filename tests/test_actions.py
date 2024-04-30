@@ -1,10 +1,10 @@
-#player 1 attacks 
-def shuffle_ships in range (1,10)
-for shuffle_ships in range (A,J):
+from test_board import new_board
+from test_actions import 
 
-coordinate_player1=input("Give your coordinate")
-if coordinate_player1 == (shuffle_ships,shuffle_ships): #not sure it is right 
- print ("red") 
- print ("hit") 
- else if print ("white") 
-print ("miss")
+
+def test_coordinate_to_shoot():
+    print("Choose a coordinate to shoot at")
+    board=new_board()
+    coordinate_to_shoot(board, row, column, 0,0)
+    assert board[0][0] == board[0]
+
