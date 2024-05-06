@@ -22,7 +22,7 @@ while True:
         if coordinate[0] in abc and int(coordinate[1]) in range(10):
             coordinate[0] = abc.index(coordinate[0])
             print("Shot at", coordinate)
-            print("X", coordinate, board)
+            print("X", print_board(coordinate))
     elif command == "restart" or "Restart" or "RESTART":
         exit()
     else:
