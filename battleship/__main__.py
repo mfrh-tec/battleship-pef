@@ -48,3 +48,12 @@ while True:
     else:
          print("Command not valid")
 
+
+
+#player 1 attacks 
+coordinate_player1=input("Give your coordinate")
+if coordinate_player1 == (shuffle_ships,shuffle_ships): #not sure it is right 
+ print red 
+ print hit 
+ else if print white 
+print miss 
