@@ -20,7 +20,8 @@ while True:
         print("Where will you shoot?")
         coordinate = input("Choose a coordinate: ")
         if coordinate[0] in abc and int(coordinate[1]) in range(10):
-            coordinate[0] = abc.index(coordinate[0])
+            coordinate_letter = abc.index(coordinate[0])
+            coordinate_number = int(coordinate[1])
             print("Shot at", coordinate)
             print("X", print_board(coordinate))
     elif command == "restart" or "Restart" or "RESTART":
@@ -53,7 +54,8 @@ while True:
 #player 1 attacks 
 coordinate_player1=input("Give your coordinate")
 if coordinate_player1 == (shuffle_ships,shuffle_ships): #not sure it is right 
- print red 
- print hit 
- else if print white 
-print miss 
+    print ("red")
+    print ("hit")
+else:
+    print ("white") 
+    print ("miss") 
