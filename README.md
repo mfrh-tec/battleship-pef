@@ -6,6 +6,6 @@
 
 #### The commands you'll need for playing are:
 
-##### PLACE SHIPS- choose where you want to place your battleships
-##### SHOT ATTEMPT- choose the coordinate where you think the computer's ships may be
+##### PLACE- choose where you want to place your battleships
+##### SHOOT- choose the coordinate where you think the computer's ships may be
 ##### RESTART- exit and reboot the game

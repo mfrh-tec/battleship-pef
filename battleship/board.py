@@ -37,3 +37,4 @@ def print_board(board):
     )
 
 print_board(new_board())
+
