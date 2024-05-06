@@ -11,22 +11,34 @@ computer_ships_all = [computer_ship_1, computer_ship_2, computer_ship_3]
 #defining variables
 abc = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 board = new_board()
-print_board(board, shot_coordinate=None)
+
 #game loop
 while True:
+    print_board(board)
     command = input("Enter a command: ")
-    if command == "Shot Attempt" or "shot attempt" or "SHOT ATTEMPT":
+
+    if command == "PLACE SHIPS":
+        print ("You have 3 ships of different sizes. Ship 1 is 3 squares long, Ship 2 is 4 squares long, and Ship 3 is 2 squares long. Choose wehre you'll place them.")
+        user_ship_1 = [input("Coordinates for Ship 1: ")]
+        user_ship_2 = [input("Coordinates for Ship 2: ")]
+        user_ship_3 = [input("Coordinates for Ship 3: ")]
+
+
+    elif command == "SHOT ATTEMPT":
         print("Where will you shoot?")
         coordinate = input("Choose a coordinate: ")
         if coordinate[0] in abc and int(coordinate[1]) in range(10):
             coordinate_letter = abc.index(coordinate[0])
             coordinate_number = int(coordinate[1])
             print("Shot at", coordinate)
-            print_board(board, (coordinate_letter, coordinate_number))
-    elif command == "restart" or "Restart" or "RESTART":
+            print_board(board, coordinate_letter, coordinate_number)
+    elif command == "RESTART":
         exit()
+     
     else:
         print("Command not valid")
+    
+
 #player 1 attacks 
 coordinate_player1=input("Give your coordinate")
 if coordinate_player1 == (shuffle_ships,shuffle_ships): #not sure it is right 
