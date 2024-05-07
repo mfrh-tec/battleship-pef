@@ -33,6 +33,8 @@ while True:
                 print("Oh! That's a miss :(")
     elif command == "RESTART":
         exit()
+    elif command == "PLACE":
+        print("You have 5 ships of different lengths. Choose the coordinates at each end of every ship")
     else:
         print("Command not valid")
 
