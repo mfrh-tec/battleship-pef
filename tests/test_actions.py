@@ -4,7 +4,7 @@ from battleship.actions import coordinate_to_shoot, flattened_ships
 
 def test_coordinate_to_shoot():
     print("Choose a coordinate to shoot at")
-    board=new_board()
+    board=new_board() 
     coordinate_to_shoot(board, 0,0)
     assert board[0][0] == "X"
 #make sure that in position 0,0 there is X 
