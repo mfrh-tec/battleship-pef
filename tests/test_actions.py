@@ -8,15 +8,3 @@ def test_coordinate_to_shoot():
     coordinate_to_shoot(board, 0,0)
     assert board[0][0] == "X"
 #make sure that in position 0,0 there is X 
-
-
-def test_shuffle_shipss():
-    board=new_board()
-    coordinate_to_shoot(board, 0,0)
-    assert board[0][0] == "X"
-
-
-def test_verify_if_sink ():
-    board=new_board()
-    coordinate_to_shoot(board, 0,0)
-    assert board[0][0] == "X"

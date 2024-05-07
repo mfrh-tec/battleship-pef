@@ -5,11 +5,10 @@ def shuffle_shipss():
 
 
 def coordinate_to_shoot(board, row, column):
-    pass
-
-
-def verify_if_sink(board, ship_coordinates):
-    pass
+    print("Choose a coordinate to shoot at")
+    board=new_board()
+    coordinate_to_shoot(board, 0,0)
+    assert board[0][0] == "X"
 
 def flattened_ships(computers_ships_all):
     return_ships = []
