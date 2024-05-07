@@ -36,7 +36,7 @@ while True:
     elif command == "PLACE":
         print("You have 5 ships of different lengths. Choose the coordinates at each end of every ship")
     else:
-        print("Command not valid")
+        print("Invalid. Try to enter a command from the ones established in the instructions")
 
 
 
