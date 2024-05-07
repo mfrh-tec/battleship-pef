@@ -1,9 +1,4 @@
 
-
-def shuffle_shipss():
-    pass
-
-
 def coordinate_to_shoot(board, row, column):
     print("Choose a coordinate to shoot at")
     board=new_board()

@@ -16,7 +16,4 @@ def test_flattened_ships():
     assert board[0][0] == "X"
 
 
-def test_verify_if_sink ():
-    board=new_board()
-    coordinate_to_shoot(board, 0,0)
-    assert board[0][0] == "X"
+#verify if sink 
