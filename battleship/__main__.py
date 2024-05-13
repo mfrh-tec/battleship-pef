@@ -33,19 +33,5 @@ while True:
                 print("Oh! That's a miss :(")
     elif command == "RESTART":
         exit()
-    elif command == "PLACE":
-        print("You have 5 ships of different lengths. Choose the coordinates at each end of every ship")
     else:
         print("Invalid. Try to enter a command from the ones established in the instructions")
-
-
-
-
-#player 1 attacks 
-coordinate_player1=input("Give your coordinate")
-if coordinate_player1 == (shuffle_ships,shuffle_ships): #not sure it is right 
-    print ("red")
-    print ("hit")
-else:
-    print ("white") 
-    print ("miss") 
