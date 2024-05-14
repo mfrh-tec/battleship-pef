@@ -1,3 +1,4 @@
+from actions import flattened_ships
 def new_board():
     board = [[" ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
              [" ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
@@ -37,4 +38,7 @@ def print_board(board):
     )
 
 print_board(new_board())
+
+    
+
 

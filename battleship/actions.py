@@ -1,3 +1,4 @@
+from board import new_board
 
 def coordinate_to_shoot(board, row, column):
     print("Choose a coordinate to shoot at")
