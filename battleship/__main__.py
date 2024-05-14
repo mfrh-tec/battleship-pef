@@ -32,7 +32,7 @@ while True:
                board[coordinate_number][coordinate_letter] = "O"
            else:
                print("Oh! That's a miss :(")
-           elif command == "RESTART":
-               exit()
-           else:
-               print("Invalid. Try to enter a command from the ones established in the instructions")
+   elif command == "RESTART":
+       exit()
+   else:
+       print("Invalid. Try to enter a command from the ones established in the instructions")

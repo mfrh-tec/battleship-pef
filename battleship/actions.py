@@ -1,8 +1,6 @@
-from board import new_board
-
 def coordinate_to_shoot(board, row, column):
     print("Choose a coordinate to shoot at")
-    board=new_board()
+    board = new_board()
     coordinate_to_shoot(board, 0,0)
     assert board[0][0] == "X"
 
