@@ -7,3 +7,6 @@
 #### The commands you'll need for playing are:
 ##### SHOOT- choose the coordinate where you think the computer's ships may be
 ##### RESTART- exit and reboot the game
+
+###### BONNE CHANCE!
+

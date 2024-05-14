@@ -17,8 +17,5 @@ def computerships():
     print("You sunk ship #4")
   elif ship5 == True:
     print("You sunk Ship #5")
-  elif ships == True:
+  elif computers_ships_all == True:
     print("CONGRATS! YOU WON, YOU SUNK ALL SHIPS!")
-
-ship1 = computer_ship_1
-
